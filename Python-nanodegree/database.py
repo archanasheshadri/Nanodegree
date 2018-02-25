@@ -8,7 +8,7 @@ Created on Tue Dec 05 16:21:00 2017
 import sqlite3
 
 # Fetch records from either chinook.db
-db = sqlite3.connect("C:\\Users\\archa\\sqlite-windows\\sqlite_windows\\chinook-db\\chinook_db\\chinook.db")
+db = sqlite3.connect("chinook.db")
 c = db.cursor()
 QUERY = "SELECT * FROM Invoice;"
 c.execute(QUERY)
