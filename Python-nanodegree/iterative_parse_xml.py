@@ -31,7 +31,7 @@ def count_tags(filename):
 
 def test():
 
-    tags = count_tags('C:\\Users\\archa\\Nanodegree\\example.osm.xml')
+    tags = count_tags('example.osm.xml')
     pprint.pprint(tags)
     
 
