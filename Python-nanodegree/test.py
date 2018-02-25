@@ -5,7 +5,7 @@ Created on Tue Sep 19 12:48:17 2017
 @author: archa
 """
 import xlrd
-datafile = "C:\\Users\\archa\\2013_ERCOT_Hourly_Load_Data.xls"
+datafile = "2013_ERCOT_Hourly_Load_Data.xls"
 def parse_file(datafile):
     workbook = xlrd.open_workbook(datafile)
     sheet = workbook.sheet_by_index(0)
