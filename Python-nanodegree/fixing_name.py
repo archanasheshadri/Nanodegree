@@ -23,7 +23,7 @@ import codecs
 import csv
 import pprint
 
-CITIES = 'C:\\Users\\archa\\Nanodegree\\cities.csv'
+CITIES = 'cities.csv'
 
 
 def fix_name(name):
