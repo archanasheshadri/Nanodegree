@@ -8,7 +8,7 @@ Created on Tue Oct 10 14:46:47 2017
 import xlrd
 import csv
 
-datafile = "C:\\Users\\archa\\Nanodegree\\2013_ERCOT_Hourly_Load_Data.xls"
+datafile = "2013_ERCOT_Hourly_Load_Data.xls"
 def parse_file(datafile):
     workbook = xlrd.open_workbook(datafile)
     sheet = workbook.sheet_by_index(0)
