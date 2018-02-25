@@ -173,7 +173,7 @@ import cerberus
 
 import schema
 
-OSM_PATH = "C:\\Users\\archa\\Nanodegree\\example.osm - Copy.xml"
+OSM_PATH = "example.osm - Copy.xml"
 
 NODES_PATH = "nodes.csv"
 NODE_TAGS_PATH = "nodes_tags.csv"
