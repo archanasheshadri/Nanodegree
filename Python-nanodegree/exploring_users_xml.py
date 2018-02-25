@@ -33,7 +33,7 @@ def process_map(filename):
 
 def test():
 
-    users = process_map('C:\\Users\\archa\\Nanodegree\\example.osm.xml')
+    users = process_map('example.osm.xml')
     pprint.pprint(users)
     assert len(users) == 6
 
