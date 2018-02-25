@@ -9,7 +9,7 @@ import csv
 import pprint
 
 
-INPUT_FILE = 'C:\\Users\\archa\\Nanodegree\\autos.csv'
+INPUT_FILE = 'autos.csv'
 OUTPUT_GOOD = 'autos-valid.csv'
 OUTPUT_BAD = 'FIXME-autos.csv'
 
