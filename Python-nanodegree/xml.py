@@ -7,7 +7,7 @@ Created on Mon Oct 16 15:26:41 2017
 
 import xml.etree.ElementTree as ET
 
-article_file = "C:\\Users\\archa\\Nanodegree\\exampleResearchArticle.xml"
+article_file = "exampleResearchArticle.xml"
 
 
 def get_root(fname):
