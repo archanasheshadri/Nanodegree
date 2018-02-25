@@ -38,7 +38,7 @@ import csv
 import json
 import pprint
 
-CITIES = 'C:\\Users\\archa\\Nanodegree\\cities.csv'
+CITIES = 'cities.csv'
 
 FIELDS = ["name", "timeZone_label", "utcOffset", "homepage", "governmentType_label",
           "isPartOf_label", "areaCode", "populationTotal", "elevation",
