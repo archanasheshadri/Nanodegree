@@ -60,4 +60,4 @@ def save_file(data, filename):
     
 
 data = parse_file(datafile)
-save_file(data, 'C:\\Users\\archa\\Nanodegree\\2013_Max_Loads.csv')
+save_file(data, '2013_Max_Loads.csv')
