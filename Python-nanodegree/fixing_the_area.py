@@ -23,7 +23,7 @@ import csv
 import json
 import pprint
 
-CITIES = 'C:\\Users\\archa\\Nanodegree\\cities.csv'
+CITIES = 'cities.csv'
 
 def count_digits(area_split):
     #print area_split[0]
