@@ -21,7 +21,7 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "C:\\Users\\archa\\Nanodegree\\example.osm - Copy.xml"
+OSMFILE = "example.osm - Copy.xml"
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
 
 
