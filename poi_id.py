@@ -17,6 +17,8 @@ features_list = ['poi','salary', 'fraction_from_poi','fraction_to_poi' ] # You w
 with open("final_project_dataset.pkl", "r") as data_file:
     data_dict = pickle.load(data_file)
 
+
+print (data_dict.values()[0])
 ### Task 2: Remove outliers
 
 features = ["salary", "bonus"]
